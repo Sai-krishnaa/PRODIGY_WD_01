@@ -10,7 +10,7 @@ body {
 }
 
 .hero{
-  background-image: url('/image/hero.jpg'); 
+  background-image: url(image/hero.jpg); 
   background-size: cover;
   background-position: center;
 }
@@ -306,16 +306,16 @@ nav ul li a {
  .carousel {
   display: grid;
   grid-auto-flow: column;
-  grid-auto-columns: calc((100% / 4) - 15px); /* Adjust based on your item width and gap */
+  grid-auto-columns: calc((100% / 4) - 15px); 
   gap: 20px;
   overflow-x: auto;
   scroll-snap-type: x mandatory;
   scroll-behavior: smooth;
-  scrollbar-width: none; /* Remove scrollbar for Firefox */
+  scrollbar-width: none; 
 }
 
 .carousel::-webkit-scrollbar {
-  display: none; /* Remove scrollbar for WebKit browsers (like Chrome/Safari) */
+  display: none; 
 }
 
 .carousel .card {
@@ -331,7 +331,7 @@ nav ul li a {
   align-items: center;
   justify-content: center;
   flex-direction: column;
-  transition: transform 0.3s ease; /* Add transition for smoother animation */
+  transition: transform 0.3s ease; 
 }
 
 .card .img {
@@ -370,13 +370,13 @@ nav ul li a {
 
 @media screen and (max-width: 900px) {
   .carousel {
-    grid-auto-columns: calc((100% / 2) - 9px); /* Adjust for two columns on smaller screens */
+    grid-auto-columns: calc((100% / 2) - 9px);
   }
 }
 
 @media screen and (max-width: 600px) {
   .carousel {
-    grid-auto-columns: 100%; /* Single column for very small screens */
+    grid-auto-columns: 100%;
   }
 }
 
@@ -456,7 +456,7 @@ button:hover {
 }
 
 .formsec {
-  background-image: url(/image/footer.png);
+  background-image: url(image/footer.png);
   background-size: cover;
   color: #fff;
   display: flex;
